@@ -117,7 +117,7 @@
 // the webserver and it will be stored in SPIFF
 // NOTE: The frequency is set in the loraModem.h file and is default 868100000 Hz.
 #if !defined _SPREADING
-#	define _SPREADING SF9
+#	define _SPREADING SF7
 #endif
 
 // Channel Activity Detection
@@ -167,7 +167,7 @@
 //	4: ESP32, Heltec and TTGO pin out (should work for Heltec, 433 and Oled too).
 //	5: Other, define your own in loraModem.h (does not include GPS Code)
 #if !defined _PIN_OUT
-#	define _PIN_OUT 1
+#	define _PIN_OUT 6
 #endif
 
 
@@ -218,7 +218,7 @@
 // _OLED==1;	0.9" Oled Screen based on SSD1306
 // _OLED==2;	1.3" Oled screens for Wemos, 128x64 SH1106
 #if !defined _OLED
-#	define _OLED 1
+#	define _OLED 0
 #endif
 
 
